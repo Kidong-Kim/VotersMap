@@ -1,0 +1,46 @@
+<!--  app/views/representatives/show.html.erb -->
+<h2>Profile : <em><%= @representatives.name %></em></h2>
+
+<ul id="details">
+  <li>
+    Name:
+    <%= @representatives.name %>
+  </li>
+  <li>
+    OCD ID:
+    <%= @representatives.ocdid %> 
+  </li>
+  <li>
+    Office:
+    <%= @representatives.title %> 
+  </li>
+  
+  <li>
+    Street:
+    <%= @representatives.street %> 
+  </li>
+  <li>
+    City:
+    <%= @representatives.city %> 
+  </li>
+  <li>
+    State:
+    <%= @representatives.state %> 
+  </li>
+  <li>
+    Zip:
+    <%= @representatives.zip %> 
+  </li>
+  
+  <li>
+    Party:
+    <%= @representatives.party %> 
+  </li>
+  <li>
+    Photo: 
+    <%- if !@representatives.photo.nil? -%>
+    <%= image_tag(@representatives.photo, :alt => @representatives.photo) %>
+    <%- end -%>
+  </li>
+
+</ul>

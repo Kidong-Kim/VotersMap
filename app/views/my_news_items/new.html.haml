@@ -1,0 +1,19 @@
+
+.row.mt-2
+    .col-12.col-md-6.offset-md-3.col-xl-4.offset-xl-4
+        %h1.text-center Edit news article
+
+        
+    .col-12.col-md-6.offset-md-3.col-xl-4.offset-xl-4
+        .clearfix.mt-3
+            = form_tag search_news_issue_path, method: :get do
+                .form-group.row
+                    .col-12
+                        = select_tag :representative_name, options_for_select(Representative.all.map {|rep| [rep.name]}),
+                            { prompt: 'Select a representative', class: 'form-control', id: 'actionmap-events-filter-state' }
+                .form-group.row
+                    .col-12
+                        = select_tag :issue, options_for_select(["Free Speech", "Immigration", "Terrorism", "Social Security and Medicare", "Abortion", "Student Loans", "Gun Control", "Unemployment","Climate Change", "Homelessness", "Racism", "Tax Reform", "Net Neutrality", "Religious Freedom", "Border Security", "Minimum Wage","Equal Pay"]),
+                            { prompt: 'Select an issue', class: 'form-control', id: 'actionmap-events-filter-state' }
+                .actions
+                    = submit_tag 'Search', class: 'btn btn-primary'

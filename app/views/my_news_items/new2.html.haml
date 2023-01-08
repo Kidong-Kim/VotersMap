@@ -1,0 +1,62 @@
+.row.mt-2
+    .col-12.col-md-6.offset-md-3.col-xl-4.offset-xl-4
+        %h1.text-center Edit news article 3
+.row.mt-2
+    .col-12.col-md-6.offset-md-3.col-xl-4.offset-xl-4
+        %h1.text-left Representative: #{@representative.name}
+.row.mt-2
+    .col-12.col-md-6.offset-md-3.col-xl-4.offset-xl-4
+        %h1.text-left Issue: #{params[:issue]}
+
+= form_tag rate_articles_path, method: :get, class: 'form' do
+    .form-group
+        .row
+            %legend.col-form-label.col-sm-12.py-1 Select an article:
+            .col-sm-12
+                .form-check
+                    = radio_button_tag :article, @news_items[0].title, false,
+                        id: 'art1-radio', class: 'form-check-input'
+                    %label.form-check-label{ for: 'actionmap-events-filter-state-radio' } Title :#{@news_items[0].title}
+                    <br />
+                    Link: <a href="url">#{@news_items[0].url}</a>
+                    <br />
+                    Description: #{@news_items[0].description}
+                .form-check
+                    = radio_button_tag :article, @news_items[1].title, false,
+                        id: 'art2-radio', class: 'form-check-input'
+                    %label.form-check-label{ for: 'actionmap-events-filter-county-radio' } Title: #{@news_items[1].title}
+                    <br />
+                    Link: <a href="url">#{@news_items[1].url}</a>
+                    <br />
+                    Description: #{@news_items[1].description}
+                .form-check
+                    = radio_button_tag :article, @news_items[2].title, false,
+                        id: 'art3-radio', class: 'form-check-input'
+                    %label.form-check-label{ for: 'actionmap-events-filter-county-radio' } Title: #{@news_items[2].title}
+                    <br />
+                    Link: <a href="url">#{@news_items[2].url}</a>
+                    <br />
+                    Description: #{@news_items[2].description}
+                .form-check
+                    = radio_button_tag :article, @news_items[3].title, false,
+                        id: 'art4-radio', class: 'form-check-input'
+                    %label.form-check-label{ for: 'actionmap-events-filter-county-radio' } Title: #{@news_items[3].title}
+                    <br />
+                    Link: <a href="url">#{@news_items[3].url}</a>
+                    <br />
+                    Description: #{@news_items[3].description}
+                .form-check
+                    = radio_button_tag :article, @news_items[4].title, false,
+                        id: 'art5-radio', class: 'form-check-input'
+                    %label.form-check-label{ for: 'actionmap-events-filter-county-radio' } Title: #{@news_items[4].title}    
+                    <br />
+                    Link: <a href="url">#{@news_items[4].url}</a>
+                    <br />
+                    Description: #{@news_items[4].description}
+                .form-group.row
+                    .col-12
+                        = select_tag :rating, options_for_select(["1","2", "3","4", "5"]),
+                            { prompt: 'Select a rating', class: 'form-control', id: 'actionmap-events-filter-state' }
+        .actions
+            = submit_tag 'Save', class: 'btn btn-primary'
+
