@@ -12,8 +12,6 @@ political events in their area as well as aggregate, share and view news items i
 
 [![All Specs](https://github.com/saasbook/hw-agile-iterations/actions/workflows/specs.yml/badge.svg)](https://github.com/saasbook/hw-agile-iterations/actions/workflows/specs.yml)
 
-
-[![Github Workflow](https://github.com///actions/workflows//badge.svg)]
 ### Getting Setup Locally
 
 Follow the [Getting Started Guide](./docs/01-getting-started.md) to get your localhost environment setup.
