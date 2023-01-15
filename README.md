@@ -15,10 +15,10 @@
 
 Implemented features such as seaching representatives based on location, adding and rating news articles, and sign in. 
 
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/8PnzcmD/Representative-Profile.png" alt="Representative-Profile" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/8PnzcmD/Representative-Profile.png" alt="Representative-Profile" border="0" width="200" height="300"></a>
 
 Used Google Civic Information API to populate civic information of representatives. 
 
-<a href="https://ibb.co/170qt6f"><img src="https://i.ibb.co/BcfZ5NV/Rating-News-Article.png" alt="Rating-News-Article" border="0"></a>
+<a href="https://ibb.co/170qt6f"><img src="https://i.ibb.co/BcfZ5NV/Rating-News-Article.png" alt="Rating-News-Article" border="0" width="600" height="200"></a>
 
 Deployed News API when pre-populating a list of news articles to let the users rate for a representative.
