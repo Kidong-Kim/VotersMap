@@ -13,8 +13,6 @@
 
 [Link to Project](https://votemap20.herokuapp.com/)
 
-<a href="https://ibb.co/mJyTFHj"><img src="https://i.ibb.co/F6Y3qBr/National-Map-hompage.png" alt="National-Map-hompage" border="0"></a>
-
 Implemented features such as seaching representatives based on location, adding and rating news articles, and sign in. 
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/8PnzcmD/Representative-Profile.png" alt="Representative-Profile" border="0"></a>
