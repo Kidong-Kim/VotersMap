@@ -19,6 +19,6 @@ Implemented features such as seaching representatives based on location, adding 
 
 Used Google Civic Information API to populate civic information of representatives. 
 
-<a href="https://ibb.co/170qt6f"><img src="https://i.ibb.co/BcfZ5NV/Rating-News-Article.png" alt="Rating-News-Article" border="0" width="600" height="200"></a>
+<a href="https://ibb.co/170qt6f"><img src="https://i.ibb.co/BcfZ5NV/Rating-News-Article.png" alt="Rating-News-Article" border="0"></a>
 
 Deployed News API when pre-populating a list of news articles to let the users rate for a representative.
