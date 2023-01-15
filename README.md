@@ -1,14 +1,13 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9281575&assignment_repo_type=AssignmentRepo)
-# Actionmap
+# Voter's Map 
 
-<div style="text-align: center;">
+## Abstract
 
-Actionmap is an app that allows users to learn more about their representatives,
-political events in their area as well as aggregate, share and view news items in their locality.
+- [Project for CS169A](https://docs.google.com/document/d/15y-eG0DyoGsoWGvw6jw-ciy7EJ2IJLas96qdQwPbYv8/edit?usp=sharing) - "Software Engineering" at UC Berkeley during Fall 2022.
+- Utilized Ruby, HTML, CSS, JavaScript, and other necessary frameworks and tools in developing software such as Cucumber, Rspec, and Heroku.
+- Contributed to developing a simple web application that lets users find information about their elected and appointed government representatives under an agile software development environment. 
+- Deployed News API when pre-populating a list of news articles to let the users rate for a representative.
+- The code is based on skeleton code from the class. Project was completed using the Codio. This submission received full score.
 
-</div>
+---
 
-<!-- TODO: Update these for your repo! -->
-
-[![All Specs](https://github.com/saasbook/hw-agile-iterations/actions/workflows/specs.yml/badge.svg)](https://github.com/saasbook/hw-agile-iterations/actions/workflows/specs.yml)
-
+## Project description
