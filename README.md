@@ -13,7 +13,7 @@
 
 [Link to Project](https://votemap20.herokuapp.com/)
 
-Implemented features such as seaching representatives based on location, adding and rating news articles, and sign in. 
+Implemented features like seaching representatives based on location, adding and rating news articles for representative, and sign in. 
 
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/8PnzcmD/Representative-Profile.png" alt="Representative-Profile" border="0" width="200" height="300"></a>
 
